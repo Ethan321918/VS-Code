@@ -56,5 +56,29 @@ body {
 }
 
 .footer{
+  background-color: #D61212;
+  color: white;
+  min-height: 60px;;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
 
+.footer p {
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icons img {
+  height: 25px;
+  width: auto;
+  padding: 7px;
 }
